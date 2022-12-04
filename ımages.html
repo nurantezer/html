@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+   
+</head>
+<body>
+    <img src="./images/resim1.png" alt="calısma" style="width: 400px;height: 250px;">
+    <img src="./images/resim2.jpg" alt="gun" style="width: 250px;height: 200x;">
+    <img src="https://clarusway.com/wp-content/uploads/2022/02/Adsiz-tasarim-4.png" alt="https://clarusway.com">
+
+    <p style="background-color:grey ;">Hareketli görsellerde kulanabiliriz.</p>
+    <img src="https://i.pinimg.com/originals/37/d3/6a/37d36ab1b8db17e1cf97e1265c546e85.gif" alt="winter">
+
+    <p>Resmi link olarakta kullanabilirim.</p>
+    <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">
+        <img src="https://i.pinimg.com/474x/48/c6/e4/48c6e4fe8db73ea92ea16ac4a88b86cb.jpg" width="100" alt="HTML tutorial">
+    </a>
+
+    <P>Float yani kayan resim sayfanın başı sonu değiştirilebilir.</p>
+        <p> <strong>Float the image to the left</strong></p>
+        <p>
+            <img src="https://cdn.dsmcdn.com/mnresize/500/-/ty6/product/media/images/20200701/16/3710881/75681896/2/2_org.jpg" alt="smiley face" style="float:left;width: 42px;height: 10
+            px; ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, totam!
+        </p>
+
+        <p>Background image koyma işlemi.Arka plan görüntüsünün kendini tekrar etmesini önlemek için, background-repeat özelliğini no-repeatolarak ayarlayın. Background cover(arka plan kapağı)Arka plan görüntüsünün tüm öğeyi kaplamasını istiyorsanız, arka plan boyutu özelliğini kaplayacak(cover) şekilde ayarlayabilirsiniz. Ayrıca, tüm öğenin her zaman kapsandığından emin olmak için background-attachment özelliğini sabit(fixed) olarak ayarlayın: Bu şekilde, arka plan görüntüsü tüm öğeyi esnetmeden kaplar (görüntü orijinal oranlarını korur:Background Stretch(Arka Plan Uzatma) Arka plan görüntüsünün tüm öğeye sığacak şekilde genişletilmesini istiyorsanız, background-size özelliğini %100 %100 olarak ayarlayabilirsiniz: <strong>Bu özellik sonra denenecek.</strong> HTML <picture> Element farklı cihazlar veya ekran boyutları için farklı resimler görüntülemenizi sağlar.<picture> öğesi, her biri srcset özniteliği aracılığıyla farklı görüntülere atıfta bulunan bir veya daha fazla <source> öğesi içerir. Bu şekilde, tarayıcı mevcut görünüme ve/veya cihaza en uygun görüntüyü seçebilir.Her <source> öğesinin, görüntünün ne zaman en uygun olduğunu tanımlayan bir medya özelliği vardır.Not: Her zaman <picture> öğesinin son alt öğesi olarak bir <img> öğesi belirtin. <img> öğesi, <picture> öğesini desteklemeyen tarayıcılar tarafından veya <source> etiketlerinden hiçbiri eşleşmediğinde kullanılır.</p>
+       <style>
+        body{
+            background-image:url(https://www.kikajoy.com/kika-premium-fon-kartonu-150gr-50x70-acik-pembe-premium-fon-kartonlari-kika-6634-93-B.jpg) ;
+            background-repeat:no-repeat ;
+            background-attachment: fixed;
+            background-size:cover;
+            background-size: 100% 100% ;
+        }
+       </style>
+       <picture>
+        <source media="(min-width: 650px)" srcset="img_food.jpg">
+        <source media="(min-width: 465px)" srcset="img_car.jpg">
+        <img src="img_girl.jpg">
+       </picture>
+       
+
+
+
+    
+</body>
+</html>
